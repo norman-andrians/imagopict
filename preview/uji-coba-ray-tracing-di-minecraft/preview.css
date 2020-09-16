@@ -1,5 +1,7 @@
-body {
+body {background-size: cover;
     background-image: url("preview.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .background-title {
     background-color: black;

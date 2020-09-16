@@ -51,15 +51,15 @@ body {
     text-align: center;
 }
 .img-download-list {
-    display: inline-flex;
     text-align: center;
 }
 .link-image-button-body {
+    display: inline-block;
     margin: 5px;
 }
 .link-image-button-body > a > button {
     border-radius: 10px;
-    width: 303px;
+    width: 260px;
     padding-top: 10px;
     background-color: white;
     border: none;
@@ -78,7 +78,7 @@ body {
     }
 }
 .link-image-button-body > a > button > img {
-    width: 280px;
+    width: 240px;
     border-radius: 10px;
 }
 .link-image-button-body > a > button:hover > img {
@@ -104,4 +104,13 @@ body {
     font-family: monospace;
     font-size: large;
     padding: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .link-image-button-body > a > button {
+        width: 240px;
+    }
+    .link-image-button-body > a > button > img {
+        width: 220px;
+    }
 }
