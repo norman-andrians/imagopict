@@ -41,11 +41,13 @@ body {
     padding: 10px;
 }
 .title-img-type {
-    background-image: url("background/minecraft-bg.png");
     color: white;
     text-align: center;
     padding: 0.006%;
     margin: 10px;
+}
+.minecraft-type {
+    background-image: url("background/minecraft-bg.png");
 }
 .header-image {
     text-align: center;
@@ -68,6 +70,7 @@ body {
     background: none;
     animation-name: fade;
     animation-duration: 0.3s;
+    cursor: pointer;
 }
 @keyframes fade {
     from {
